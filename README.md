@@ -21,6 +21,33 @@ We test the codes in the following environments, other versions may also be comp
 
 Please download the dataset from [RAF-DB](http://www.whdeng.cn/raf/model1.html) website and change the root to your path. 
 
+<table align="center">
+    <tr>
+        <th> </th>
+        <th align="center" colspan=1>100</th>
+        <th align="center" colspan=1>400</th>
+        <th align="center" colspan=1>1000</th>
+        <th align="center" colspan=1>2000</th>
+        <th align="center" colspan=1>4000</th>
+    </tr>
+    <tr>
+        <td align="left">Fear</td>
+        <td align="center">10</td>
+        <td align="center">40</td>
+        <td align="center">100</td>
+        <td align="center">200</td>
+        <td align="center">200</td>
+    </tr>
+    <tr>
+        <td align="left">Others</td>
+        <td align="center">15</td>
+        <td align="center">60</td>
+        <td align="center">150</td>
+        <td align="center">300</td>
+        <td align="center">625</td>
+    </tr>
+</table>
+
 ## Getting Started
 
 To train on RAF-DB:
