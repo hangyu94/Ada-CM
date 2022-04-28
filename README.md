@@ -24,11 +24,11 @@ Please download the dataset from [RAF-DB](http://www.whdeng.cn/raf/model1.html) 
 <table align="center">
     <tr>
         <th> </th>
-        <th align="center" colspan=1>100</th>
-        <th align="center" colspan=1>400</th>
-        <th align="center" colspan=1>1000</th>
-        <th align="center" colspan=1>2000</th>
-        <th align="center" colspan=1>4000</th>
+        <th align="center" colspan=1>100 labels</th>
+        <th align="center" colspan=1>400 labels</th>
+        <th align="center" colspan=1>1000 labels</th>
+        <th align="center" colspan=1>2000 labels</th>
+        <th align="center" colspan=1>4000 labels</th>
     </tr>
     <tr>
         <td align="left">Fear</td>
