@@ -36,7 +36,7 @@ Please download the dataset from [RAF-DB](http://www.whdeng.cn/raf/model1.html) 
         <td align="center">40</td>
         <td align="center">100</td>
         <td align="center">200</td>
-        <td align="center">200</td>
+        <td align="center">250</td>
     </tr>
     <tr>
         <td align="left">Others</td>
