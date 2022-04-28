@@ -69,4 +69,4 @@ If you find our work useful in your research, please consider citing:
 
 ## Note
 
-If you have any questions, please contact me.  Email:  hangyuli.xidian@gmail.com.
+If you have any questions, please contact me.  Email:  hangyuli.xidian@gmail.com
