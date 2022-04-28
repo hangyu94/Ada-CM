@@ -19,7 +19,7 @@ We test the codes in the following environments, other versions may also be comp
 
 ## Dataset setup
 
-Please download the dataset from [RAF-DB](http://www.whdeng.cn/raf/model1.html) website and change the root to your path. 
+Please download the dataset from [RAF-DB](http://www.whdeng.cn/raf/model1.html) website and change the root to your path. The splits of different-class labeled data are listed below. For example, for the case of 100 labels, the labeled training set consists of 10 faces annotated with fear and 15 faces annotated with other expressions. More details could be found in the supplementary material, which will be available later at CVF website. 
 
 <table align="center">
     <tr>
