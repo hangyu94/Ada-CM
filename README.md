@@ -8,8 +8,7 @@ This is the official PyTorch implementation of our CVPR 2022 paper:
 
 ## Update
 - **(2022/04/28)** We upload the main files for training on RAF-DB.
-- **(2022/05/10)** We provide the pre-trained ResNet-18 on MS-Celeb-1M.\ 
-Download it from [Google Drive](https://drive.google.com/file/d/17Jbg3G31uLTlwoB3thHlGrXD7BCH9CJZ/view?usp=sharing), and put it into ***./models***.
+- **(2022/05/10)** We provide the pre-trained [ResNet-18](https://drive.google.com/file/d/17Jbg3G31uLTlwoB3thHlGrXD7BCH9CJZ/view?usp=sharing) on MS-Celeb-1M. Please put it into ***./models***.
 
 ## Requirements
 
