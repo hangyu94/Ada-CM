@@ -2,7 +2,7 @@
 
 This is the official PyTorch implementation of our CVPR 2022 paper:
 
-> [**Towards Semi-Supervised Deep Facial Expression Recognition with An Adaptive Confidence Margin**](https://arxiv.org/abs/2203.12341)      
+> [**Towards Semi-Supervised Deep Facial Expression Recognition with An Adaptive Confidence Margin**](https://openaccess.thecvf.com/content/CVPR2022/html/Li_Towards_Semi-Supervised_Deep_Facial_Expression_Recognition_With_an_Adaptive_Confidence_CVPR_2022_paper.html)      
 > Hangyu Li, Nannan Wang*, Xi Yang, Xiaoyu Wang, Xinbo Gao        
 > *In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022*
 
@@ -20,7 +20,7 @@ We test the codes in the following environments, other versions may also be comp
 
 ## Dataset setup
 
-Please download the dataset from [RAF-DB](http://www.whdeng.cn/raf/model1.html) website and change the root to your path. The splits of different-class labeled data are listed below. For example, for the case of 100 labels, the labeled training set consists of 10 faces annotated with fear and 15 faces annotated with other expressions. More details could be found in the supplementary material, which will be available later at CVF website. 
+Please download the dataset from [RAF-DB](http://www.whdeng.cn/raf/model1.html) website and change the root to your path. The splits of different-class labeled data are listed below. For example, for the case of 100 labels, the labeled training set consists of 10 faces annotated with fear and 15 faces annotated with other expressions. More details could be found in the supplementary material, which is available at CVF website. 
 
 <table align="center">
     <tr>
@@ -65,7 +65,9 @@ If you find our work useful in your research, please consider citing:
       title={Towards Semi-Supervised Deep Facial Expression Recognition with An Adaptive Confidence Margin},
       author={Li, Hangyu and Wang, Nannan and Yang, Xi and Wang, Xiaoyu and Gao, Xinbo},
       booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+      month={June}
       year={2022}
+      pages={4166-4175}
     }
 
 ## Note
