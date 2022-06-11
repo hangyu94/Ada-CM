@@ -65,8 +65,8 @@ If you find our work useful in your research, please consider citing:
       title={Towards Semi-Supervised Deep Facial Expression Recognition with An Adaptive Confidence Margin},
       author={Li, Hangyu and Wang, Nannan and Yang, Xi and Wang, Xiaoyu and Gao, Xinbo},
       booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-      month={June}
-      year={2022}
+      month={June},
+      year={2022},
       pages={4166-4175}
     }
 
