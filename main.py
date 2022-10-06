@@ -212,13 +212,12 @@ def train(labeled_trainloader, unlabeled_trainloader, model, optimizer, ema_opti
             inputs_strong = inputs_strong.cuda()
 
 
-        with torch.no_grad():
-            # compute guessed labels of unlabel samples
-            outputs_u, feature_u = model(inputs_u)
-            outputs_u2, feature_u2 = model(inputs_u2)
-            p = (torch.softmax(outputs_u, dim=1) + torch.softmax(outputs_u2, dim=1)) / 2
-            max_probs, max_idx = torch.max(p, dim=1)
-            max_idx = max_idx.detach()
+        # compute guessed labels of unlabeled samples
+        outputs_u, feature_u = model(inputs_u)
+        outputs_u2, feature_u2 = model(inputs_u2)
+        p = (torch.softmax(outputs_u, dim=1) + torch.softmax(outputs_u2, dim=1)) / 2
+        max_probs, max_idx = torch.max(p, dim=1)
+        max_idx = max_idx.detach()
 
         output_x, _ = model(inputs_x)
 
