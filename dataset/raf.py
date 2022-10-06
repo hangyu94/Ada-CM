@@ -38,7 +38,7 @@ def target_read(path):
     with open(path) as f:
         img_label_list = f.read().splitlines()
     for info in img_label_list:
-        _, label_name, _ = info.split(' ')
+        _, label_name = info.split(' ')
         label_list.append(int(label_name))
     return label_list
 
@@ -87,7 +87,7 @@ class Dataset_RAF(torch.utils.data.Dataset):
         with open(file_list) as f:
             img_label_list = f.read().splitlines()
         for info in img_label_list:
-            image_path, label_name, _ = info.split(' ')
+            image_path, label_name = info.split(' ')
             image_list.append(image_path)
             label_list.append(int(label_name))
 
