@@ -12,7 +12,7 @@ This is the official PyTorch implementation of our CVPR 2022 paper:
 
 ## Requirements
 
-We test the codes in the following environments, other versions may also be compatible:
+We test the codes in the following environments:
 
 - Python==3.6.9
 - PyTorch==1.3.0
